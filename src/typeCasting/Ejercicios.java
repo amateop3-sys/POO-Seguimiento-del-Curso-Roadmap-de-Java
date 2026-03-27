@@ -39,7 +39,7 @@ public class Ejercicios {
 		
 		String data3= String.valueOf(num2);
 		
-		System.out.println("EL NUMERO ES STRING ES: "+data3);
+		System.out.println("EL NUMERO EN STRING ES: "+data3);
 		
 		
 		
@@ -48,8 +48,16 @@ public class Ejercicios {
 		
 		// Convertir de String a int
 		
-		String num4;
+		String data4= "10";
 		
+		System.out.println("EL NUMERO EN STRING ES: "+data4);
+		
+		int num3 = Integer.parseInt(data4);
+		
+		System.out.println("EL NUMERO EN INT ES: "+num3);
+		
+		
+		System.out.println("---------------------------------------");
 		
 		
 	}
