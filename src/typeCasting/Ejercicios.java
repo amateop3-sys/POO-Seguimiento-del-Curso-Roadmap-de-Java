@@ -28,6 +28,30 @@ public class Ejercicios {
 		
 		System.out.println("EL NUMERO EN INT ES: "+data2);
 
+		
+		System.out.println("---------------------------------------");
+		
+		// Convertir de int a String
+		
+		int num2= 10;
+		
+		System.out.println("EL NUMERO EN INT ES: "+num2);
+		
+		String data3= String.valueOf(num2);
+		
+		System.out.println("EL NUMERO ES STRING ES: "+data3);
+		
+		
+		
+		System.out.println("---------------------------------------");
+		
+		
+		// Convertir de String a int
+		
+		String num4;
+		
+		
+		
 	}
 
 }
