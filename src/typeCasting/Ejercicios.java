@@ -16,8 +16,17 @@ public class Ejercicios {
 		
 		// ----------------------------------------------------
 		
+		System.out.println("---------------------------------------");
 		
-		// Convertir
+		// Convertir de double a int
+		
+		double num1= 10.99;
+		
+		System.out.println("EL NUMERO EN FLOAT ES: "+num1);
+		
+		int data2 = (int)num1;
+		
+		System.out.println("EL NUMERO EN INT ES: "+data2);
 
 	}
 
