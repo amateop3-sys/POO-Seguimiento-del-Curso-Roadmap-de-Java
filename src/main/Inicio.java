@@ -2,6 +2,7 @@ package main;
 import enums.*;
 import excepcionHandling.*;
 import initializer.*;
+import paquetes.*;
 public class Inicio {
 
 	public static void main(String[] args) {
@@ -25,7 +26,8 @@ public class Inicio {
 		
 		
 		
-		
+		// Uso de paquetes
+		TablasDeMultiplicar.ejecutar();
 		
 		
 		
