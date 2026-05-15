@@ -5,6 +5,7 @@ package main;
 
 import enums.*;
 import excepcionHandling.*;
+import herencia.ManejoHerencia;
 import initializer.*;
 import modificadores.ManejoAcceso;
 import paquetes.*;
@@ -83,9 +84,24 @@ public class Inicio {
 		System.out.println("---------------------------");
 		System.out.println("MODIFICADORES");
 		System.out.println("---------------------------");
-		ManejoAcceso.ejecutar();;
+		ManejoAcceso.ejecutar();
 						
 		System.out.println("\n");
+		
+		
+		
+		// uso de encapsulamiento
+		System.out.println("---------------------------");
+		System.out.println("HERENCIA");
+		System.out.println("---------------------------");
+		ManejoHerencia.ejecutar();
+								
+		System.out.println("\n");
+				
+				
+				
+				
+				
 		
 				
 				
