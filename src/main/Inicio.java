@@ -1,9 +1,19 @@
 package main;
+
+
+
+
 import enums.*;
 import excepcionHandling.*;
 import initializer.*;
 import paquetes.*;
 import parametros.*;
+import encapsulamiento.*;
+
+
+
+
+
 public class Inicio {
 
 	public static void main(String[] args) {
@@ -55,6 +65,21 @@ public class Inicio {
 		System.out.println("PARAMETROS");
 		System.out.println("---------------------------");
 		UsoParametros.ejecutar();
+		
+		System.out.println("\n");
+		
+		
+		// uso de encapsulamiento
+		System.out.println("---------------------------");
+		System.out.println("ENCAPSULAMIENTO");
+		System.out.println("---------------------------");
+		ManejoEncapsulamiento.ejecutar();
+				
+		System.out.println("\n");
+		
+				
+				
+				
 	}
 
 }
