@@ -8,6 +8,7 @@ import excepcionHandling.*;
 import herencia.ManejoHerencia;
 import initializer.*;
 import modificadores.ManejoAcceso;
+import overloadAndOverride.ManejoOverloadAndOverride;
 import paquetes.*;
 import parametros.*;
 import encapsulamiento.*;
@@ -90,7 +91,7 @@ public class Inicio {
 		
 		
 		
-		// uso de encapsulamiento
+		// uso de herencia
 		System.out.println("---------------------------");
 		System.out.println("HERENCIA");
 		System.out.println("---------------------------");
@@ -98,6 +99,14 @@ public class Inicio {
 								
 		System.out.println("\n");
 				
+		
+		// uso de encapsulamiento
+		System.out.println("---------------------------");
+		System.out.println("SOBRECARGA");
+		System.out.println("---------------------------");
+		ManejoOverloadAndOverride.ejecutar();
+										
+		System.out.println("\n");
 				
 				
 				
