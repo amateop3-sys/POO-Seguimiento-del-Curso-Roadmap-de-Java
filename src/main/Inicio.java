@@ -6,6 +6,7 @@ package main;
 import enums.*;
 import excepcionHandling.*;
 import initializer.*;
+import modificadores.ManejoAcceso;
 import paquetes.*;
 import parametros.*;
 import encapsulamiento.*;
@@ -75,6 +76,15 @@ public class Inicio {
 		System.out.println("---------------------------");
 		ManejoEncapsulamiento.ejecutar();
 				
+		System.out.println("\n");
+		
+		
+		// uso de encapsulamiento
+		System.out.println("---------------------------");
+		System.out.println("MODIFICADORES");
+		System.out.println("---------------------------");
+		ManejoAcceso.ejecutar();;
+						
 		System.out.println("\n");
 		
 				
